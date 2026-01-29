@@ -1,15 +1,46 @@
-# Remix compiler artifacts
-**/artifacts/
-**/artifacts/**
+# Dependencies
+node_modules/
+package-lock.json
+
+# Hardhat
+artifacts/
+cache/
+coverage/
+coverage.json
+typechain/
+typechain-types/
+
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.production
+.env.staging
+
+# Debug info
+*.dbg.json
+*.tsbuildinfo
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Remix plugin state folders
 deps/
 states/
 
-# Debug info
-*.dbg.json
-*.tsbuildinfo
+# Test coverage
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
 
-# Optional
-.env
-.env.local
+# Temporary files
+*.tmp
+tmp/
